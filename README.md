@@ -10,20 +10,38 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:
+Fork and clone the repositary in to your IDE.
 
 ### STEP 2:
+Create a django project and an app and a superuser account and run the server.
 
 ### STEP 3:
+Modify changes in settings and write ur code on models and admin and run the server.
 
-Write your own steps
+### STEP 4:
+Login in to admin using your superuser account and populate the records.
 
 ## PROGRAM
+```python
+from django.db import models
+from django.contrib import admin
 
-Include your code here
+class Employee (models.Model):
+   emp_id=models.CharField(primary_key=True,max_length=4,help_text='Employee ID')
+   ename=models.CharField(max_length=50)
+   post=models.CharField(max_length=20)
+   phonenumber=models.IntegerField()
+   salary=models.IntegerField()
+
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display=('emp_id','ename','post','phonenumber','salary')
+```
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![output1](https://user-images.githubusercontent.com/121117266/230269971-30b14708-7488-44bd-8615-bb763f025ea5.png)
 
+![output 2](https://user-images.githubusercontent.com/121117266/230269992-6ea755c0-3b98-47d8-82ed-f3dd03322bfd.png)
 
 ## RESULT
+Thus we developed a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
