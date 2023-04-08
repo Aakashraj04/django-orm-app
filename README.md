@@ -4,6 +4,9 @@
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
 ## Entity Relationship Diagram
+![table](https://user-images.githubusercontent.com/121117266/230702799-27357c23-a3fd-4bcb-a73f-aaeb4d634adc.png)
+
+
 
 Include your ER diagram here
 
@@ -38,6 +41,13 @@ class EmployeeAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
+
+![output2](https://user-images.githubusercontent.com/121117266/230702810-bf0fec3d-5a6c-4bbf-a292-568210d41718.png)
+
+## Verifying Primary-Key
+
+![Screenshot 2023-04-06 090423](https://user-images.githubusercontent.com/121117266/230702977-9bf9097e-3e65-4394-8f90-ac0bf82845db.png)
+
 
 
 ## RESULT
