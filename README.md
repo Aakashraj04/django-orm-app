@@ -39,9 +39,6 @@ class EmployeeAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-![output1](https://user-images.githubusercontent.com/121117266/230269971-30b14708-7488-44bd-8615-bb763f025ea5.png)
-
-![output 2](https://user-images.githubusercontent.com/121117266/230269992-6ea755c0-3b98-47d8-82ed-f3dd03322bfd.png)
 
 ## RESULT
 Thus we developed a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
