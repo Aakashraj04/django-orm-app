@@ -48,6 +48,8 @@ class EmployeeAdmin(admin.ModelAdmin):
 
 ![Screenshot 2023-04-06 090423](https://user-images.githubusercontent.com/121117266/230702977-9bf9097e-3e65-4394-8f90-ac0bf82845db.png)
 
+## Server Output
+![Ex-2 server output](https://github.com/Aakashraj04/django-orm-app/assets/121117266/0e98c554-d9b3-4d62-9652-d3c611c14291)
 
 
 ## RESULT
